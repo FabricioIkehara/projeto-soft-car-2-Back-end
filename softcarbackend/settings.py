@@ -145,3 +145,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+# settings.py
+BREVO_API_KEY = 'qAvyxXI2cOUk0gCj'

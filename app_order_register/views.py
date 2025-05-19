@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from .models import Order
 import json
-import requests
+import requests # type: ignore
 
 # Função existente para enviar e-mail via Brevo
 def send_email_via_brevo(to_email, client_name, pedido_id):
